@@ -45,6 +45,6 @@
   "primaryTokenAttribute": "resources.vitality",
   "secondaryTokenAttribute": "resources.force",
   "url": "https://github.com/Dashy902/FoundryVTT_SWKOTOR/",
-  "manifest": "https://your/hosted/system/repo/system.json",
+  "manifest": "https://github.com/Dashy902/FoundryVTT_SWKOTOR/blob/main/system",
   "download": "https://your/packaged/download/archive.zip"
 }
