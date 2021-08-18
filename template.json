@@ -3,12 +3,12 @@
     "types": ["character", "npc"],
     "templates": {
       "base": {
-        "health": {
+        "vitality": {
           "value": 10,
           "min": 0,
           "max": 10
         },
-        "power": {
+        "force": {
           "value": 5,
           "min": 0,
           "max": 5
