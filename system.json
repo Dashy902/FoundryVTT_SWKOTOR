@@ -1,36 +1,15 @@
 {
-  "name": "swkotor",
+  "name": "kotor",
   "title": "Star Wars KotOR",
-  "description": "The Star Wars KotOR experience for FoundryVTT. Built to emulate the base game as closely as possible. Loosely based on DnD 3.5E. For information/bugreports etc. contact the author at dashy902@gmail.com or on reddit at dashy902",
+  "description": "The Star Wars KotOR experience for FoundryVTT. Built to emulate the base game as closely as possible. Loosely based on DnD 3.5E. For information/bugreports etc. contact the author at dashy902@gmail.com or on Reddit at dashy902",
   "version": "0.1",
-  "templateVersion": 2,
-  "author": "Dashy902",
-  "minimumCoreVersion": "0.8",
-  "scripts": [
-    "scripts/system-script-1.js",
-    "scripts/system-script-2.js"
-  ],
-  "esmodules": [
-    "scripts/system-module-1.mjs"
-  ],
-  "styles": [
-    "styles/system-styles-1.css",
-    "styles/system-styles-2.css"
-  ],
-  "packs": [
-    {
-      "name": "monsters",
-      "label": "My Monsters",
-      "path": "packs/monsters.db",
-      "entity": "Actor"
-    },
-    {
-      "name": "items",
-      "label": "My Items",
-      "path": "packs/items.db",
-      "entity": "Item"
-    }
-  ],
+  "minimumCoreVersion": "0.8.3",
+  "compatibleCoreVersion": "0.8.6",
+  "author": "dashy902",
+  "esmodules": ["module/boilerplate.mjs"],
+  "styles": ["css/boilerplate.css"],
+  "scripts": [],
+  "packs": [],
   "languages": [
     {
       "lang": "en",
@@ -38,13 +17,12 @@
       "path": "lang/en.json"
     }
   ],
-  "socket": false,
-  "initiative": "1d20",
   "gridDistance": 5,
   "gridUnits": "ft",
-  "primaryTokenAttribute": "resources.vitality",
-  "secondaryTokenAttribute": "resources.force",
-  "url": "https://github.com/Dashy902/FoundryVTT_SWKOTOR/",
-  "manifest": "https://github.com/Dashy902/FoundryVTT_SWKOTOR/blob/main/system",
-  "download": "https://your/packaged/download/archive.zip"
+  "primaryTokenAttribute": "vitality",
+  "secondaryTokenAttribute": "force",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
 }

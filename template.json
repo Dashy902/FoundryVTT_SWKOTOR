@@ -1,366 +1,73 @@
 {
   "Actor": {
-    "types": ["character", "noncombat"],
+    "types": ["character", "npc"],
     "templates": {
-      "common": {
-        "abilities": {
-          "str": {
-            "value": 10,
-            "proficient": 0
-          },
-          "str": {
-            "value": 10,
-            "proficient": 0
-          },
-          "dex": {
-            "value": 10,
-            "proficient": 0
-          },
-          "con": {
-            "value": 10,
-            "proficient": 0
-          },
-          "int": {
-            "value": 10,
-            "proficient": 0
-          },
-          "wis": {
-            "value": 10,
-            "proficient": 0
-          },
-          "cha": {
-            "value": 10,
-            "proficient": 0
-          }
+      "base": {
+        "vitality": {
+          "value": 10,
+          "min": 0,
+          "max": 10
         },
-        "attributes": {
-          "defense": {
-            "flat": null,
-            "calc": "default",
-            "formula": ""
-          },
-           "hp": {
-            "value": 10,
-            "min": 0,
-            "max": 10,
-            "temp": 0,
-            "tempmax": 0
-          },
-          "fp"
-          "value": 0,
-            "min": 0,
-            "max": 0,
-            "temp": 0,
-            "tempmax": 0
-          },
-          "init": {
-            "value": 0,
-            "bonus": 0
-          },
-          "movement": {
-            "burrow": 0,
-            "fly": 0,
-            "walk": 30,
-            "units": "ft",
-            "hover": false
-          }
+        "force": {
+          "value": 5,
+          "min": 0,
+          "max": 5
         },
-        "details": {
-          "biography": {
-            "value": "",
-            "public": ""
-          }
-        },
-        "traits": {
-          "size": "med",
-        }
-      },
-      "currency": {
-        "credits": 0,
+        "biography": ""
       }
     },
-    "creature": {
+    "character": {
+      "templates": ["base"],
       "attributes": {
-        "spellcasting": "wis"
-        {!-- add cha as another spellcasting attribute when i know how/when possible --}
-    },
-    "details": {
-      "class": "",
-      "race": ""
-    },
-    "skills": {
-      "awa": {
-        "value": 0,
+        "level": {
+          "value": 1
+        }
       },
-      "comp": {
-        "value": 0,
-      },
-      "demo": {
-        "value": 0,
-      },
-      "per": {
-        "value": 0,
-      },
-      "rep": {
-        "value": 0,
-      },
-      "sec": {
-        "value": 0,
-      },
-      "snk": {
-        "value": 0,
-      },
-      "med": {
-        "value": 0,
-      }
-    },
-    "traits": {
-      "languages": {
-        "value": [],
-        "custom": ""
-      }
-    },
-        "bonuses": {
-          "mwak": {
-            "attack": "",
-            "damage": ""
-          },
-          "rwak": {
-            "attack": "",
-            "damage": ""
-          },
-          "msak": {
-            "attack": "",
-            "damage": ""
-          },
-          "rsak": {
-            "attack": "",
-            "damage": ""
-          },
-          "abilities": {
-            "check": "",
-            "save": "",
-            "skill": ""
-          },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
         }
       }
-  },
-  "htmlFields": ["details.biography.value", "details.biography.public"],
-"character": {
-  "templates": ["common", "creature"],
-  "attributes", {
-  "exhaustion": 0,
-},
-"details": {
-"appearance": "",
-"trait": "",
-  "ideal": "",
-  "bond": "",
-  "flaw": "",
-},
-"resources": {
-  "primary": {
-    "value": 0,
-     "max": 0,
-     "sr": 0,
-     "lr": 0
-  },
-  "traits": {
-    "weaponProf": {
-      "value": [],
-      "custom": ""
     },
-   "weaponProf": {
-      "value": [],
-      "custom": ""
-   },
-"noncombat": {
-  "templates": ["common", "creature"],
-  "details": {
-    "type": {
-      "value": "",
-      "subtype": "",
-      "custom": ""
-    },
+    "npc": {
+      "templates": ["base"],
+      "cr": 0
+    }
   },
-},
-            "Item": {
-    "types": ["weapon", "equipment", "consumable", "tool", "loot", "class", "spell", "feat", "backpack"],
+  "Item": {
+    "types": ["item", "feature", "spell"],
     "templates": {
-      "itemDescription": {
-        "description": {
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": ""
-      },
-      "physicalItem": {
-        "quantity": 1,
-        "weight": 0,
-        "price": 0,
-        "equipped": false,
-        "identified": true
-      },
-      "activatedEffect": {
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        }
-      },
-      "action": {
-        "ability": null,
-        "actionType": null,
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        }
-      },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        }
+      "base": {
+        "description": ""
       }
     },
-    "htmlFields": ["description.value", "description.chat", "description.unidentified"],
-    "backpack": {
-      "templates": ["itemDescription", "physicalItem"],
-      "capacity": {
-        "type": "weight",
-        "value": 0,
-        "weightless": false
-      },
-      "currency": {
-        "credits": 0,
-      }
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
     },
-    "class": {
-      "templates": ["itemDescription"],
-      "levels": 1,
-      "subclass": "",
-      "hitDice": "d6",
-      "hitDiceUsed": 0,
-      "saves": [],
-      "skills": {
-        "number": 2,
-        "choices": [],
-        "value": []
-      },
-      "spellcasting": {
-        "progression": "none",
-        "ability": ""
-      }
-    },
-    "consumable": {
-      "templates": ["itemDescription", "physicalItem", "activatedEffect", "action"],
-      "consumableType": "potion",
-      "uses": {
-        "autoDestroy": false
-      }
-    },
-    "equipment": {
-      "templates": ["itemDescription", "physicalItem", "activatedEffect", "action"],
-      "armor": {
-        "type": "light",
-        "value": null,
-        "dex": null
-      },
-      "speed": {
-        "value": null,
-        "conditions": ""
-      },
-      "strength": 0,
-      "stealth": false,
-      "proficient": true
-    },
-    "feat": {
-      "templates": ["itemDescription", "activatedEffect", "action"],
-      "requirements": "",
-      "recharge": {
-        "value": null,
-        "charged": false
-      }
-    },
-    "loot": {
-      "templates": ["itemDescription", "physicalItem"]
-    },
-    "tool": {
-      "templates": ["itemDescription", "physicalItem"],
-      "toolType": "",
-      "ability": "int",
-      "chatFlavor": "",
-      "proficient": 0
+    "feature": {
+      "templates": ["base"]
     },
     "spell": {
-      "templates": ["itemDescription", "activatedEffect", "action"],
-      "level": 1,
-      "school": "",
-      "components": {
-        "value": "",
-        "vocal": false,
-        "somatic": false,
-        "material": false,
-        "ritual": false,
-        "concentration": false
-      },
-      "materials": {
-        "value": "",
-        "consumed": false,
-        "cost": 0,
-        "supply": 0
-      },
-      "preparation": {
-        "mode": "prepared",
-        "prepared": false
-      },
-      "scaling": {
-        "mode": "none",
-        "formula": null
-      }
-    },
-    "weapon": {
-      "templates": ["itemDescription", "physicalItem" ,"activatedEffect", "action"],
-      "weaponType": "simpleM",
-      "properties": {},
-      "proficient": true
+      "templates": ["base"],
+      "spellLevel": 1
     }
   }
 }
-

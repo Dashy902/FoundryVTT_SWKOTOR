@@ -1,12 +1,22 @@
 {
-  "KotOR.Alignment": "Alignment",
-  "KotOR.Background": "Background",
-  "KotOR.VitalityPoints": "Vitality Points",
-  "KotOR.Level": "Level",
-  "KotOR.Max": "Max",
-  "KotOR.Name": "Name",
-  "KotOR.Proficiency": "Proficiency",
-  "KotOR.Race": "Race",
-  "KotOR.Rest": "Rest",
-  "KotOR.Temp": "Temp",
-  
+  "KotOR.AbilityStr": "Strength",
+  "KotOR.AbilityCon": "Constitution",
+  "KotOR.AbilityDex": "Dexterity",
+  "KotOR.AbilityInt": "Intelligence",
+  "KotOR.AbilityWis": "Wisdom",
+  "KotOR.AbilityCha": "Charisma",
+
+  "KotOR.AbilityStrAbbr": "str",
+  "KotOR.AbilityConAbbr": "con",
+  "KotOR.AbilityDexAbbr": "dex",
+  "KotOR.AbilityIntAbbr": "int",
+  "KotOR.AbilityWisAbbr": "wis",
+  "KotOR.AbilityChaAbbr": "cha",
+
+  "KotOR.EffectCreate": "Create Effect",
+  "KotOR.EffectToggle": "Toggle Effect",
+  "KotOR.EffectEdit": "Edit Effect",
+  "KotOR.EffectDelete": "Delete Effect",
+
+  "KotOR.Add": "Add"
+}
