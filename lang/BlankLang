@@ -1,0 +1,22 @@
+{
+  "KotOR.AbilityStr": "",
+  "KotOR.AbilityCon": "",
+  "KotOR.AbilityDex": "",
+  "KotOR.AbilityInt": "",
+  "KotOR.AbilityWis": "",
+  "KotOR.AbilityCha": "",
+
+  "KotOR.AbilityStrAbbr": "",
+  "KotOR.AbilityConAbbr": "",
+  "KotOR.AbilityDexAbbr": "",
+  "KotOR.AbilityIntAbbr": "",
+  "KotOR.AbilityWisAbbr": "",
+  "KotOR.AbilityChaAbbr": "",
+
+  "KotOR.EffectCreate": "",
+  "KotOR.EffectToggle": "",
+  "KotOR.EffectEdit": "",
+  "KotOR.EffectDelete": "",
+
+  "KotOR.Add": ""
+}
