@@ -21,33 +21,119 @@
       "attributes": {
         "level": {
           "value": 1
-        }
+        },
+        "defense": {
+        "value": 10,
+        "calc": "default",
+        "formula": "",
+        "modifier": []
+        },
+        "init": {
+        "value": 0,
+        "bonus": 0
       },
-      "abilities": {
+        "will": {
+    "value": 0,
+    "modifier": []
+},
+        "fortitude": {
+    "value": 0,
+    "modifier": []
+},
+        "reflex": {
+    "value": 0,
+    "modifier": []
+},
+
+  "movement":{
+  "walk": 30,
+  "units": "ft"
+},
+      },
+            "abilities": {
         "str": {
-          "value": 10
+          "value": 10,
+          "modifier": []
         },
         "dex": {
-          "value": 10
+          "value": 10,
+          "modifier": []
         },
         "con": {
-          "value": 10
+          "value": 10,
+          "modifier": []
         },
         "int": {
-          "value": 10
+          "value": 10,
+          "modifier": []
         },
         "wis": {
-          "value": 10
+          "value": 10,
+          "modifier": []
         },
         "cha": {
-          "value": 10
-        }
-      }
+          "value": 10,
+          "modifier": []
+        },
+      },
+
+"skills": {
+  "computer use": {
+   "value": 0,
+   "ability": "int",
+  "modifier": []
+  },
+"demolitions": {
+  "value": 0,
+  "ability": "int",
+  "modifier": []
+  },
+"stealth" {
+"value": 0,
+"ability": "dex",
+"modifier": []
+  },
+  "awareness": {
+   "value": 0,
+   "ability": "int",
+  "modifier": []
+  },
+  "persuade": {
+   "value": 0,
+    "ability": "cha",
+  "modifier": []
+  },
+  "repair": {
+   "value": 0,
+    "ability": "int",
+  "modifier": []
+  },
+  "security": {
+   "value": 0,
+    "ability": "int",
+  "modifier": []
+  },
+  "treat injury": {
+   "value": 0,
+    "ability": "wis",
+  "modifier": []
+  },
+},
+  "traits" {
+  "languages": 
+  "value": [],
+"custom": ""
+}
+},
     },
+  "currency": {
+    "credits": 0
+  },
+
     "npc": {
       "templates": ["base"],
       "cr": 0
-    }
+    },
   },
   "Item": {
     "types": ["item", "feature", "spell"],
