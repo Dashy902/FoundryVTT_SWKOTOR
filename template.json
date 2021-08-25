@@ -135,8 +135,9 @@
       "cr": 0
     },
   },
+
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["item", "feature", "power"],
     "templates": {
       "base": {
         "description": ""
@@ -151,9 +152,9 @@
     "feature": {
       "templates": ["base"]
     },
-    "spell": {
+    "power": {
       "templates": ["base"],
-      "spellLevel": 1
+      "powerLevel": 1
     }
   }
 }
