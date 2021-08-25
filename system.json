@@ -3,7 +3,7 @@
   "title": "Star Wars KotOR",
   "description": "The Star Wars KotOR experience for FoundryVTT. Built to emulate the base game as closely as possible. Loosely based on DnD 3.5E. For information/bugreports etc. contact the author at dashy902@gmail.com or on Reddit at dashy902",
   "version": "0.1",
-  "minimumCoreVersion": "0.8.3",
+  "minimumCoreVersion": "0.7.1",
   "compatibleCoreVersion": "0.8.6",
   "author": "dashy902",
   "esmodules": ["module/boilerplate.mjs"],
@@ -21,8 +21,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "vitality",
   "secondaryTokenAttribute": "force",
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/Dashy902/FoundryVTT_SWKOTOR",
+  "manifest": "https://github.com/Dashy902/FoundryVTT_SWKOTOR/blob/main/system.json",
+  "download": "https://github.com/Dashy902/FoundryVTT_SWKOTOR/archive/refs/heads/main.zip",
   "license": "LICENSE.txt"
 }
